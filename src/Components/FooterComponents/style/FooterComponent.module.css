@@ -1,0 +1,60 @@
+footer {
+    position: relative;
+  bottom: 0;
+  left: 0;
+     background: #003E4E;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.footerIntro {
+    color: #E3E4E7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding-left: 10%;
+    padding-top: 4%;
+    size: 16px;
+}
+.footerIntro p {
+    padding-top: 3%;
+}
+.footerProduct h2{
+    color: #18E6E4;
+    size: 28px;
+}
+.footerProduct li {
+    padding-top: 5%;
+}
+.footerProduct {
+    color: #E3E4E7 ;
+    margin-left: 13%;
+    padding-top: 11%;
+    size: 16px;
+}
+.medialSocial {
+    font-size: 22px;
+    color: rgba(24, 230, 228, 1);
+}
+.iconFooter {
+    padding: 6px;
+}
+.iconHeart {
+    color: rgba(24, 230, 228, 1);
+}
+.footerContact h2{
+    color: #18E6E4;
+    size: 28px;
+}
+.footerContact p {
+    padding-top: 5%;
+}
+.footerContact {
+    color: #E3E4E7 ;
+    margin-left: 15%;
+    padding-top: 11%;
+    size: 16px;
+}
+.footerCopyright {
+    color:#9A67FF;
+    grid-column-start: 2;
+    text-align: center;
+}

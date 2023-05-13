@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet');
+
+.curvedDiv {
+  position: relative;
+  margin-top: -58px;
+  height: 400px;
+  width: 95%;
+  margin-left: 3%;
+  background-color: #dfd0c3;
+
+  background-repeat: no-repeat;
+}
+
+.hoja {
+  width: 30%;
+  height: 40%;
+  background-repeat: no-repeat;
+  position: absolute; /* establece el posicionamiento absoluto para el texto */
+  top: 35%; /* posiciona el texto en la mitad superior del contenedor */
+  left: 45%; /* posiciona el texto en la mitad izquierda del contenedor */
+  transform: translate(-150%, -87%);
+}
+.sobremi {
+  top: 25%; /* posiciona el texto en la mitad superior del contenedor */
+  margin-left: 45%; /* posiciona el texto en la mitad izquierda del contenedor */
+  transform: translate(
+    2%,
+    10%
+  ); /* centra vertical y horizontalmente el texto en el centro de la imagen de fondo */
+  font-size: 2rem;
+  width: 47%;
+  padding: 30px;
+  border-radius: 30%;
+  color: #003e4e;
+  font-size: 24px;
+  font-family: "EB Garamond", serif;
+  z-index: 1;
+  position: absolute;
+  text-align: justify;
+}
+
+.curvedDiv {
+  position: relative;
+}
+
+.photo.colorChanged {
+  filter: hue-rotate(
+    180deg
+  ); /* Ajusta el ángulo de rotación para cambiar el color */
+}
+
+.photo {
+  transition: filter 2s ease-in-out;
+  width: 100%; /* Ajusta el tamaño de la imagen aquí si es necesario */
+  width: 100%; /* Ajusta el tamaño de la imagen aquí si es necesario */
+  margin-top: -5%;
+  margin-left: 10%;
+  width: 481px;
+  height: 603px;
+  z-index: 1;
+  position: absolute;
+
+  border: 3px solid #b3c4bd; /* ancho, estilo y color del borde */
+  outline: 1px solid #057e9c;
+  padding: 20px;
+}

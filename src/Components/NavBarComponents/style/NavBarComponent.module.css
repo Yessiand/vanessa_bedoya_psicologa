@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Source+Sans+Pro:ital@1&display=swap" rel="stylesheet');
+
+
+nav {
+    text-decoration: none;
+    background-color: #CCD3D6;
+    
+    height: 80px;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+   
+    
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    margin-left: 3%;
+    
+}
+.link:hover {
+    color: rgb(97, 94, 94);
+}

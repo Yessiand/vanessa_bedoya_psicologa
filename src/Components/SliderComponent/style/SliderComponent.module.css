@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@700&display=swap" rel="stylesheet');
+
+.text {
+    font-family: 'Dancing Script', cursive;
+
+    color: #02556a;
+    position: absolute; /* establece el posicionamiento absoluto para el texto */
+    top: 35%; /* posiciona el texto en la mitad superior del contenedor */
+    left: 40%; /* posiciona el texto en la mitad izquierda del contenedor */
+    transform: translate(-50%, -50%); /* centra vertical y horizontalmente el texto en el centro de la imagen de fondo */
+    font-size: 3rem; /* establece el tamaño de fuente del texto */
+    
+    
+}
+
+.container {
+    position: relative; /* establece el posicionamiento relativo para que los elementos internos se posicionen con referencia a este contenedor */
+    height: 60vh; /* establece la altura del contenedor para ocupar el 100% de la altura de la ventana del navegador */
+    
+  }
+  
+  .container img {
+    width: 100%; /* establece el ancho de la imagen al 100% del contenedor */
+    height: 100%; /* establece la altura de la imagen al 100% del contenedor */
+    object-fit: cover; /* ajusta la imagen para cubrir todo el espacio disponible del contenedor */
+    opacity: 0.6;
+  }
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .containerAnimation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .textAnimation {
+    animation: fadeInUp 2s ease-in-out forwards;
+  }
